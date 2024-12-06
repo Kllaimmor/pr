@@ -1,6 +1,6 @@
 hello = "Hello World"
-name = "Dmytro"
-lastname = "Tsopyth"
+name = "Andrii"
+lastname = "Stelmaschuk"
 age = 16
 
 print(hello)
