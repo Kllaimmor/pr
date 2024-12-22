@@ -4,7 +4,7 @@ token='7588541183:AAE4zkrgBHQuOkKLxEFAnllsVVNktlH4bog'
 
 bot = telebot.TeleBot(token)
 
-@Cmc_tnt_bot(content_types=["text"])
+@bot.message_handler(content_types=["text"])
 def repeat_all_messages(message):
     bot.send_message(message.chat.id, message.text)
 
